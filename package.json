@@ -1,0 +1,14 @@
+{
+  "name": "ws_promise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "School of Computing, University of Portsmouth",
+  "contributors": [
+    "Rich Boakes <rjb@boakes.org> (http://boakes.org/)"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.15.2"
+  }
+}
