@@ -1,14 +1,15 @@
 # Promise Examples
 
-The lecture goes a but like this...
+The lecture goes a bit like this...
 
 \_00\_
 * Firstly, a common error is introduced in \_00\_commonerror
-* The \_00\_commonerror\_10.js file attempts to return a value from a callback function
-* NB there's a small express server so that browsers which refuse to XHR or fetch from a file url will happily fetch some content.
+* The \_00\_commonerror\_10.js file attempts to return a value from a callback function... this cannot work, but it's a very common rookie AJAX mistake and even plagues more experienced coders on occasion.  Promises can help fix this.
+* NB: there's a small express server so that browsers which refuse to XHR or fetch from a file url will happily fetch some content.
+  * ... if necessary `npm install` and `node svr` then visit http://127.0.0.1:8080
+  * there are links from each page to the next example - you need to look in the JS console to see any errors
 
-Promises can help fix this.
-
+## Introducing promises.
 * \_10\_ Resolving a simple Promise
 * \_20\_ Fulfilled and rejected Promises
 * \_30\_ All promises
